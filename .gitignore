@@ -1,0 +1,31 @@
+# Secrets / local config (assignment: "No .env, no secrets")
+.env
+
+# Virtual environment (assignment: "no virtual environments")
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Candidate kit files: given by HROne, not part of the submission
+PROBLEM_STATEMENT.docx
+openapi.yaml
+DATA_MODEL.md
+
+# Sample data and seed script (assignment: "no data dumps")
+sample_data/
+sample_seed.py
+
+# Local helper / study files
+extra.txt
+*.pdf
+*.zip
+selftest_real_mongo.py
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
